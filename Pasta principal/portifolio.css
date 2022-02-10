@@ -1,0 +1,18 @@
+img#foto{
+    border-radius: 100%;
+    margin-left: 10px;
+}
+
+div#apresentação{
+    border-color: black;
+    border-style:groove;
+    width: auto;
+    height: auto;
+}
+
+span#bio{
+    margin: 10%;
+    text-align: left;
+    position:absolute;
+}
+
