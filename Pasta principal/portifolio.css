@@ -1,18 +1,69 @@
+body{
+   background-position: center;
+   background-position-x: center;
+   background-position-y: top;
+   line-height: 150%;
+}
+
 img#foto{
     border-radius: 100%;
-    margin-left: 10px;
+    margin-left: 10px
 }
 
 div#apresentação{
+    background-color: white;
     border-color: black;
-    border-style:groove;
-    width: auto;
-    height: auto;
+    border-style:ridge;
+    border-radius: 25px;
 }
 
 span#bio{
-    margin: 10%;
-    text-align: left;
     position:absolute;
+    
+    margin: 5%;
+    text-align: left;
+}
+
+a#linkGH{
+    color: black;
+}
+
+div#cs{
+    text-align: center;
+     
+}
+
+div#competencias{
+    width: 40%;
+}
+
+div#c1{
+    background-color: white;
+    border-color: black;
+    border-style:ridge;
+    border-radius: 25px;
+    padding: 5px;
+    
+}
+
+div#c2{
+    background-color: white;
+    border-color: black;
+    border-style:ridge;
+    border-radius: 25px;
+    padding: 5px;
+    margin-top: 10px;
+}
+
+div#softskills{
+    background-color: white;
+    border-color: black;
+    border-style:ridge;
+    border-radius: 25px;
+    margin-left: 45%;
+}
+
+ul#softskillslist{
+    text-align: left;
 }
 
