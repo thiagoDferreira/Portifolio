@@ -3,6 +3,12 @@ body{
    background-position-x: center;
    background-position-y: top;
    line-height: 150%;
+   width: 80%;
+   margin-top: 10px;
+   margin-left: 10%;
+   margin-right: 10%;
+
+   font-family:'Franklin Gothic Medium';
 }
 
 img#foto{
@@ -19,7 +25,6 @@ div#apresentação{
 
 span#bio{
     position:absolute;
-    
     margin: 5%;
     text-align: left;
 }
@@ -30,28 +35,18 @@ a#linkGH{
 
 div#cs{
     text-align: center;
-     
+    
 }
 
 div#competencias{
     width: 40%;
 }
 
-div#c1{
+div#d{
     background-color: white;
     border-color: black;
     border-style:ridge;
     border-radius: 25px;
-    padding: 5px;
-    
-}
-
-div#c2{
-    background-color: white;
-    border-color: black;
-    border-style:ridge;
-    border-radius: 25px;
-    padding: 5px;
     margin-top: 10px;
 }
 
@@ -60,7 +55,7 @@ div#softskills{
     border-color: black;
     border-style:ridge;
     border-radius: 25px;
-    margin-left: 45%;
+    margin-left: 50%;
 }
 
 ul#softskillslist{
