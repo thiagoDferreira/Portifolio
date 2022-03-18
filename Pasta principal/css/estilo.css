@@ -1,0 +1,25 @@
+#home{
+    background: #abacbd;
+}
+.cinza{
+    background: #e2e2e2    ;
+}
+
+.caixa{
+    padding: 60px 0;
+    border-bottom: 1px solid #e5e5e5;
+}
+.espaçamento{
+    padding: 40px 0;
+    width: 800px;
+    font-size: large;
+}
+
+.branca{
+    background: white;
+}
+.logo{
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+}

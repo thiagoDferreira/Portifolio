@@ -14,13 +14,13 @@
     <title>Portfólio Profissional</title>
   </head>
 
-  <body style="color: black;">
+  <body>
     <header> <!-- Cabeçalho -->
       <nav class="navbar navbar-expand-md navbar-light bg-light">
 
         <div class="container">
           <!-- Logo-->
-          <a href="" class="navbar-brand ">Raquel braga</a>
+          <a href="" class="navbar-brand"><h1 class="display-6">Raquel braga</h1></a>
 
           <!-- Menu hamburguer -->
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggle">
@@ -30,16 +30,16 @@
           <div class="collapse navbar-collapse" id="navbarToggle">
             <ul class="navbar-nav ms-auto">
               <li class="nav-item">
-                <a href="" class="nav-link">Experiência</a>
+                <a href="#" class="nav-link">Experiência</a>
               </li>
               <li class="nav-item">
-                <a href="" class="nav-link">Formação</a>
+                <a href="#" class="nav-link">Formação</a>
               </li>
               <li class="nav-item">
-                <a href="" class="nav-link">Habilidades</a>
+                <a href="#" class="nav-link">Habilidades</a>
               </li>
               <li class="nav-item">
-                <a href="" class="nav-link">Contato</a>
+                <a href="#" class="nav-link">Contato</a>
               </li>
             </ul>
           </div>
@@ -51,7 +51,7 @@
       <div class="container">
         <div class="row">
           <div class="col-md-6"> <!-- div com a foto -->
-            <img src="Imagens/capa-mulher.png">
+            <img class="img-fluid" src="Imagens/capa-mulher.png">
           </div>
           <div class="col-md-6 d-flex"><!--- div com os dados -->
             <div class="align-self-center">
@@ -76,80 +76,176 @@
               </p>
             </div>
           </div>
-        </div>   
-        
-        <!-- Div com as redes sociais-->
-        <div class="row" style="text-align: center; background-color: crimson; padding: 10px;">
-          <div class="col">
-            <a href="https://www.instagram.com/"><img src="Imagens/instagram.png" alt="Instagram" style="width: 30px;height: 30px;"></a>
-          </div>
-          <div class="col">
-            <a href="https://github.com/"><img src="Imagens/github.png" alt="GitHub" style="width: 30px;height: 30px;"></a>
-          </div>
-          <div class="col">
-            <a href="https://www.linkedin.com/"><img src="Imagens/linkedin.png" alt="Linkedin" style="width: 30px;height: 30px;"></a>
-          </div>
-          <div class="col">
-            <a href="https://www.facebook.com/"><img src="Imagens/facebook.png" alt="Facebook" style="width: 30px;height: 30px;"></a>
-          </div>
-          <div class="col">
-            <a href="https://twitter.com/"><img src="Imagens/twitter.png" alt="Twitter" style="width: 30px;height: 30px;"></a>
-          </div>
-          <div class="col">
-            <a href="https://www.youtube.com/"><img src="Imagens/youtube.png" alt="YouTube" style="width: 30px;height: 30px;"></a>
-          </div>
-          
         </div>
-
       </div>
     </section> <!-- Fim da seção home-->
 
-    <section id="bio" style="text-align: center;margin-top: 50px;"><!-- Inicio da seção BIO ou SOBRE MIM -->
+    <section class="caixa cinza"> <!-- Apresentação-->
       <div class="container">
-          <div class="row" >
-            <div class="col" style="background-color: crimson;font-size: xx-large;">
-              <strong>
-                Sobre mim
-              </strong>
-            </div>
-          </div>
-          <div class="row">
-            <div class="col" style="padding: 20px; margin-left: 25%;margin-right: 25%;">
-              <p>
-               Texto ocupando somente metade da capacidade da coluna para que fique centralizado aqui, mesmo com o alinhamento de texto ele acabava por ocupar a tela toda indo até o lado da tela.
+        <div class="row d-flex">
+          <div class="align-self-center">
+            <h1 class="display-6 text-center">Olá, eu sou Raquel</h1>
+              <p class="text-center">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis eu consectetur neque. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Etiam vitae diam vel dui convallis aliquam in id lorem. Ut vestibulum lorem orci, at efficitur enim maximus ac. Aenean velit velit, feugiat ac laoreet vitae, tempor eget sapien. Sed ac lacinia massa.
               </p>
-            </div>
           </div>
+        </div>
       </div>
-    </section><!-- Fim da seção BIO ou SOBRE MIM -->
+    </section> <!-- // fim da Apresentação-->
 
-    <section id="experiencia" style="text-align: center;"><!-- Inicio da seção Experiência -->
+    <section class="caixa"> <!-- Experiência -->
       <div class="container">
-          <div class="row" >
-            <div class="col" style="background-color: crimson;font-size: xx-large;">
-              <strong>
-                Experiência
-              </strong>
-            </div>
-          </div>
-          
-          <div class="row" style="margin-top: 25px;"><!--Tabela contendo dados sobre as experiências do profissional-->
-            <table class="table table-borderless table-hover" >
+        <div class="row">
+          <h1 class="display-4 text-center">Experiência</h1> <hr>
+          <div class="mx-auto espaçamento table-responsive">
+            <table class="table table-striped table-borderless">
+              <thead>
+                <tr>
+                  <th>Data</th>
+                  <th>Compainha</th>
+                </tr>
+              </thead>
               <tbody>
                 <tr>
-                  <td><strong>Empresa1 (xxxx-xxxx)</strong></td>
-                  <td>Descrição - Aqui eu deixo uma breve descrição do meu serviço na empresa1. Podento ter até 3 linhas no maximo, e esse diabo de linha não acaba</td>
+                  <td>Executiva: 2020-2022</td>
+                  <td>
+                    Quisque nec ligula quis nisl molestie lobortis. Donec id erat sagittis, viverra eros fringilla, facilisis dolor. Nullam at diam non metus vehicula pellentesque.
+                    Mauris condimentum nisi eu interdum eleifend.
+                  </td>
                 </tr>
                 <tr>
-                  <td><strong>Empresa2 (xxxx-xxxx)</strong></td>
-                  <td>Descrição - Aqui eu testo até onde vai a linha desta coluna para ver até onde preenche</td>
+                  <td>Advogada: 2019-2021</td>
+                  <td>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                    Donec id erat sagittis, viverra eros fringilla, facilisis dolor. Nullam at diam non metus vehicula pellentesque.
+                    Mauris condimentum nisi eu interdum eleifend.
+                  </td>
+                </tr>
+                <tr>
+                  <td>Estágio: 2017-2020</td>
+                  <td>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                    Quisque nec ligula quis nisl molestie lobortis.
+                    Mauris condimentum nisi eu interdum eleifend.
+                  </td>
                 </tr>
               </tbody>
             </table>
           </div>
-          
       </div>
-    </section><!-- Fim da seção BIO ou SOBRE MIM -->
+    </section> <!-- // fim da Experiência -->
+
+    <section class="caixa cinza"> <!-- Formação  -->
+      <div class="container">
+        <div class="row">
+          <h1 class="display-4 text-center">Formação</h1> <hr>
+          <div class="card-group">
+            <div class="card">
+              <div class="card-body">
+                <h5 class="card-title">Mestrado em direito: 2015-2017</h5>
+                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+              </div>
+            </div>
+
+            <div class="card">
+              <div class="card-body">
+                <h5 class="card-title">Bacharel em direito: 2012-2014</h5>
+                <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+              </div>
+            </div>
+            <div class="card">
+              <div class="card-body">
+                <h5 class="card-title">Conclusão Ensino Médio: 2007-2010</h5>
+                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section> <!-- // fim da formação -->
+
+    <section class="caixa"> <!-- Habilidades -->
+      <div class="container">
+        <div class="row">
+          <h1 class="display-4 text-center">Habilidades</h1> <hr>
+          <div class="mx-auto espaçamento">
+            <ul class="list-group list-group-flush">
+              <li class="list-group-item">Empatia</li>
+              <li class="list-group-item">Inteligência emocional</li>
+              <li class="list-group-item">Comunicação</li>
+              <li class="list-group-item">Flexibilidade</li>
+              <li class="list-group-item">Perfil analítico</li>
+              <li class="list-group-item">Visão estratégica</li>
+              <li class="list-group-item">Alinhamento cultural</li>
+            </ul>
+          </div>
+      </div>
+    </section> <!-- // fim da Habilidades -->
+
+    <section id="home"> <!-- Início da seção home -->
+      <div class="container">
+        <div class="row">
+          <h1 class="display-4 text-center">Contato</h1> <hr>
+          <div class="col-md-5"> <!-- div com a foto -->
+            <form class="row g-3 my-4">
+              <div class="col-md-6">
+                <input type="text" class="form-control" placeholder="Nome">
+              </div>
+              <div class="col-md-6">
+                <input type="number" class="form-control" placeholder="Telefone">
+              </div>
+              <div class="mb-3">
+                <input type="email" class="form-control" placeholder="name@example.com">
+              </div>
+              <div class="mb-3">
+                <textarea class="form-control" rows="2" placeholder="Digite sua mensagem aqui..."></textarea>
+              </div>
+              <div class="col-12">
+                <div class="form-check">
+                  <input class="form-check-input" type="checkbox" id="gridCheck">
+                  <label class="form-check-label" for="gridCheck">
+                    Não sou um rôbo
+                  </label>
+                </div>
+              </div>
+              <div class="col-12">
+                <button type="submit" class="btn btn-primary">Enviar</button>
+              </div>
+            </form>
+          </div>
+          
+          <div class="col-md-7 d-flex"><!--- div com os dados -->
+            <div class="my-4 mx-auto">
+              <h4 class="display-4">Raquel braga</h4>
+              <h6 class="display-6">Analista de investimentos</h6>
+              <p>
+                <strong>Telefone:</strong><br>
+                (55) 83 5555-5555
+              </p>
+              <p>
+                <strong>Email:</strong><br>
+                info@meusite.com
+              </p>
+              <h5>Minhas redes sociais</h5>
+              <div class="d-flex">
+                <a><img class="logo" src="imagens/g+.png"></a>
+                <a><img class="logo" src="imagens/insta.png"></a>
+                <a><img class="logo" src="imagens/fb.png"></a>
+                <a><img class="logo" src="imagens/linked.png"></a>
+                <a><img class="logo" src="imagens/tw.png"></a>
+              </div>            
+            </div>
+          </div>
+        </div>
+      </div>
+    </section> <!-- Fim da seção home-->
+
+
+
+    
 
     <!-- Optional JavaScript; choose one of the two! -->
 
